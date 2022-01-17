@@ -1,17 +1,17 @@
 # L8_Computed_Properties
 
-##### Csapat: Vadkerti Sára, Szebik Levente
+#### Csapat: Vadkerti Sára, Szebik Levente
 
 ## Tesztkérdések
 
-1. Mikor frissül a számított jellemző (computed property) értéke?
+### 1. Mikor frissül a számított jellemző (computed property) értéke?
    - mindig
    - soha, konstans
-   - csak ha változik az adat, amelyikből számítva van (?) -> **helyes**
-2. A számított jellemző (computed property) szintaxisa:
+   - csak ha változik az adat, amelyikből számítva van (?) `(helyes válasz)`
+### 2. A számított jellemző (computed property) szintaxisa:
    - property() {      
         return data;
-     }  -> **helyes**
+     } `(helyes válasz)`
 
    - property {
         return data;
