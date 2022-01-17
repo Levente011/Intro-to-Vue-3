@@ -24,7 +24,7 @@ const app = Vue.createApp({
     computed: {
         title() {
             // solution2
-            return this.brand + ' ' + this.variants.color + ' ' + this.product
+            return this.brand + ' ' + this.variants[this.selectedVariant].color + ' ' + this.product
             // solution2
         },
         image() {
