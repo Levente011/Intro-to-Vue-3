@@ -9,9 +9,9 @@
    - soha, konstans
    - csak ha változik az adat, amelyikből számítva van (?) -> **helyes**
 2. A számított jellemző (computed property) szintaxisa:
-   - property() {       -> **helyes**
+   - property() {      
         return data;
-     }
+     }  -> **helyes**
 
    - property {
         return data;
